@@ -15,4 +15,7 @@ Eclipse NDK
 
 2. 新建Android工程，右击项目->Android Tools->Add Native Suport...,会自动在项目根目录建立jni文件夹
 
-3. 。。。
+3. 在jni文件夹中新建Android.mk（主要是配置，例如编译后的 .so 后缀文件叫什么名字;指定编译的源文件名称;） hello.c(c文件)
+
+4. 在MainActivity里 a）用static动态加载 b）声明native方法 c）调用c中的方法
+
