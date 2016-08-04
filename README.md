@@ -1,4 +1,5 @@
 # JNIDemo
+
 Android调用本地c/c++的小例子
 
 # 背景
@@ -7,7 +8,7 @@ Android调用本地c/c++的小例子
 
 # 工具
 
-Eclipse NDK
+Windows、Eclipse、 NDK
 
 # 步骤
 
